@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "NSObject+KVO.h"
 
 @interface ViewController ()
+
+
+
+@property (nonatomic, strong) Person *p;
+
 
 @end
 
@@ -16,14 +23,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    Person *p = [[Person alloc] init];
+    _p = p;
+    
+    //添加观察者 系统自带的
+    
+    [p rj_addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    
+    NSLog(@"age__%zd",_p.age);
+    
 }
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    _p.age ++;
+}
+
 
 
 @end

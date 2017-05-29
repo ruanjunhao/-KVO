@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B611F271EDC0CB9003F2CD8 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B611F261EDC0CB9003F2CD8 /* NSObject+KVO.m */; };
+		8B611F2A1EDC0D6F003F2CD8 /* RJKVONotifying_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B611F291EDC0D6F003F2CD8 /* RJKVONotifying_Person.m */; };
 		8B67AA891ED9780800D5E2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA881ED9780800D5E2C3 /* main.m */; };
 		8B67AA8C1ED9780800D5E2C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA8B1ED9780800D5E2C3 /* AppDelegate.m */; };
 		8B67AA8F1ED9780800D5E2C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AA8E1ED9780800D5E2C3 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		8B67AA971ED9780800D5E2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AA951ED9780800D5E2C3 /* LaunchScreen.storyboard */; };
 		8B67AAA21ED9780800D5E2C3 /* _______RJ____KVO_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AAA11ED9780800D5E2C3 /* _______RJ____KVO_Tests.m */; };
 		8B67AAAD1ED9780800D5E2C3 /* _______RJ____KVO_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AAAC1ED9780800D5E2C3 /* _______RJ____KVO_UITests.m */; };
+		8B67AABC1ED9782300D5E2C3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AABB1ED9782300D5E2C3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B611F251EDC0CB9003F2CD8 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		8B611F261EDC0CB9003F2CD8 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		8B611F281EDC0D6F003F2CD8 /* RJKVONotifying_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJKVONotifying_Person.h; sourceTree = "<group>"; };
+		8B611F291EDC0D6F003F2CD8 /* RJKVONotifying_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJKVONotifying_Person.m; sourceTree = "<group>"; };
 		8B67AA841ED9780800D5E2C3 /* 响应式编程思想RJ(自定义KVO).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "响应式编程思想RJ(自定义KVO).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B67AA881ED9780800D5E2C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B67AA8A1ED9780800D5E2C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		8B67AAA81ED9780800D5E2C3 /* 响应式编程思想RJ(自定义KVO)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "响应式编程思想RJ(自定义KVO)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B67AAAC1ED9780800D5E2C3 /* _______RJ____KVO_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______RJ____KVO_UITests.m"; sourceTree = "<group>"; };
 		8B67AAAE1ED9780800D5E2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B67AABA1ED9782300D5E2C3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8B67AABB1ED9782300D5E2C3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				8B67AA951ED9780800D5E2C3 /* LaunchScreen.storyboard */,
 				8B67AA981ED9780800D5E2C3 /* Info.plist */,
 				8B67AA871ED9780800D5E2C3 /* Supporting Files */,
+				8B67AABA1ED9782300D5E2C3 /* Person.h */,
+				8B67AABB1ED9782300D5E2C3 /* Person.m */,
+				8B611F251EDC0CB9003F2CD8 /* NSObject+KVO.h */,
+				8B611F261EDC0CB9003F2CD8 /* NSObject+KVO.m */,
+				8B611F281EDC0D6F003F2CD8 /* RJKVONotifying_Person.h */,
+				8B611F291EDC0D6F003F2CD8 /* RJKVONotifying_Person.m */,
 			);
 			path = "响应式编程思想RJ(自定义KVO)";
 			sourceTree = "<group>";
@@ -274,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B67AA8F1ED9780800D5E2C3 /* ViewController.m in Sources */,
+				8B611F2A1EDC0D6F003F2CD8 /* RJKVONotifying_Person.m in Sources */,
 				8B67AA8C1ED9780800D5E2C3 /* AppDelegate.m in Sources */,
+				8B611F271EDC0CB9003F2CD8 /* NSObject+KVO.m in Sources */,
+				8B67AABC1ED9782300D5E2C3 /* Person.m in Sources */,
 				8B67AA891ED9780800D5E2C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +525,7 @@
 				8B67AAB31ED9780800D5E2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B67AAB41ED9780800D5E2C3 /* Build configuration list for PBXNativeTarget "响应式编程思想RJ(自定义KVO)Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +534,7 @@
 				8B67AAB61ED9780800D5E2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B67AAB71ED9780800D5E2C3 /* Build configuration list for PBXNativeTarget "响应式编程思想RJ(自定义KVO)UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +543,7 @@
 				8B67AAB91ED9780800D5E2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
